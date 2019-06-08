@@ -1,0 +1,16 @@
+{
+    "left"  : {
+        "velocity" : 0.0,
+        "density"  : 1.0,
+        "pressure" : 1000.0
+    },
+    "right" : {
+        "velocity" : 0.0,
+        "density"  : 1.0,
+        "pressure" : 0.01
+    },
+    "gamma"    : 1.4,
+    "number"   : 500,
+    "time"     : 0.01,
+    "fileName" : "blustwave.dat"
+}

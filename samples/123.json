@@ -1,0 +1,16 @@
+{
+    "left"  : {
+        "velocity" : -2.0,
+        "density"  : 1.0,
+        "pressure" : 0.4
+    },
+    "right" : {
+        "velocity" : 2.0,
+        "density"  : 1.0,
+        "pressure" : 0.4
+    },
+    "gamma"    : 1.4,
+    "number"   : 100,
+    "time"     : 0.15,
+    "fileName" : "123.dat"
+}
