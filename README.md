@@ -2,7 +2,7 @@
 Riemann問題の厳密解を求めるコードです。
 
 ## Riemann問題
-![shocktube.png](URL)
+![shocktube.png](https://raw.githubusercontent.com/mitchiinaga/riemann_solver/master/images/riemann_image.png)
 
 時刻t=0で、x=0を境に右側にU_R、左側にU_Lの物理量を持った1次元非粘性圧縮性流体が存在しているとします。
 この流体の物理量の時間発展は、非線形方程式を解くことによって、厳密に求めることができます。
@@ -37,7 +37,7 @@ jsonファイルを引数に指定してパラメータを設定します。パ�
 * right: x &gt; 0 の物理量。
 * gamma: 比熱比。
 * number: 出力される点の数。
-* time: 出力される時間。
+* time: 出力時刻。
 * fileName: 出力ファイルの名前。
 
 サンプルとして上記のshocktube.jsonに加え、123.json、blustwave.jsonの3種類を用意しています。
@@ -47,7 +47,7 @@ jsonファイルを引数に指定してパラメータを設定します。パ�
 
 ## 計算例
 shocktube.jsonを使用してSod Shock Tube問題を解いた結果を下に示します。
-![shocktube.png](URL)
+![shocktube.png](https://raw.githubusercontent.com/mitchiinaga/riemann_solver/master/images/shocktube_.png)
 
 ## 参考文献
 * Toro, E. F. (2009). Riemann Solvers and Numerical Methods for Fluid Dynamics: A Practical Introduction (Vol. 53). Berlin, Heidelberg: Springer Berlin Heidelberg. https://doi.org/10.1007/b79761
